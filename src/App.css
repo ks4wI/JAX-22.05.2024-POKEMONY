@@ -1,0 +1,30 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+body{
+    background-color: rgb(49, 49, 49);
+}
+*{
+    font-family: 'Courier New', Courier, monospace;
+    color: rgb(177, 177, 177);
+}
+button:hover{
+    background-color: rgb(49, 49, 49);
+}
+button{
+    margin-top: 5px;
+}
+li:hover{
+    background-color: rgb(39, 39, 39);
+}
+li{
+    padding: 2px;
+    padding-right: 20px;
+}
+.button{
+    padding-top: -200px;
+}
+
+#staty{
+    text-align: center;
+}
